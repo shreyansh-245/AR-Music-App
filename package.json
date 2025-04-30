@@ -1,0 +1,39 @@
+{
+  "name": "ar-peggiator",
+  "version": "1.0.0",
+  "description": "A shared AR music making experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuinjune/ar-peggiator.git"
+  },
+  "keywords": [
+    "ar",
+    "arpeggiator",
+    "music",
+    "webxr",
+    "webar",
+    "android"
+  ],
+  "author": "Zack Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuinjune/ar-peggiator/issues"
+  },
+  "homepage": "https://github.com/cuinjune/ar-peggiator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dependencies": "0.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.4.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
