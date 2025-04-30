@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ARpeggiator</title>
+  <meta charset=utf-8 />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name="description" content="A shared AR music making experience." />
+  <meta name="keywords" content="AR, ARpeggiator, music, webXR, webAR, Android" />
+  <meta name="generator" content="emscripten" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+  <script src="js/emscripten.js"></script>
+  <script src="emscripten/main.js"></script>
+  <script src="socket.io.js"></script>
+</head>
+
+<body>
+  <div id="info">
+    <h1 id="title">ARpeggiator</h1>
+    <h5 id="subtitle">Enable chrome://flags/#webxr-ar-module<br />(Chrome Android 80+)</h5>
+    <div id="speakerToggle">
+      <span id="speaker" class="speaker -off"></span>
+    </div>
+    <h5></h5>
+    <div id="instruction">
+      <ul>
+        <li>Hold down to preview note</li>
+        <li>Release to create a note</li>
+        <li>Double tap to erase notes</li>
+        <li>Tilt to change the sound</li>
+      </ul>
+    </div>
+  </div>
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
