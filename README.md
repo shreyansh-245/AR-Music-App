@@ -43,8 +43,6 @@ WebXR, Three.js, Pure Data, Emscripten, Node.js, Express, Socket.io, uuid
 * https://threejs.org/examples/jsm/webxr/ARButton.js
 * https://github.com/marquizzo/three-gimbal
 
-## Reporting bugs
-Please post an [issue](https://github.com/cuinjune/ar-peggiator/issues) if you face any problem using the app.
+SHREYANSH GUPTA 
 
-## Author
-* [Zack Lee](https://www.cuinjune.com/about): MPS Candidate at [NYU ITP](https://itp.nyu.edu).
+
